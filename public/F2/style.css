@@ -1,0 +1,94 @@
+/*
+*    Actividad: Fase 2 - Practicas Simuladas
+*    Curso: Diseño de Sitios Web
+*    Grupo: 301122_3
+*    Presentado por: Julian Carrillo
+*    Tutor: Mario Avila Perez
+*/
+/*
+* Uso como selector el nombre del elemento body del html para aplicar
+* la propiedad background-color y asi cambiar el color del fondo
+*/
+body{
+    background-color: #f2e0d5;
+}
+
+/*
+* Utilizo los selectores de tipo id y class que puse en el doc. html
+* para darle estilo a la pagina aplicando el Box Model para
+* cada una de las divisiones creada con las etiquetas div 
+*/
+
+.cajas{
+    border-color: #000000;
+    margin: auto;
+}
+
+#header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    background-color: #AE7373;
+    width: 50%;
+    padding: 0%;
+    border-style: double;
+}
+
+#content, #mockup, #aboutof{
+    background-color: #F7D5D5;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    border-color: #684141;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+#footer{
+    background-color: #7083A2;
+    margin: auto;
+    position:inherit;
+}
+
+/*
+* Modifico el grip que me servira de Menu
+*/
+
+.CssGrid{
+    display: grid;
+    background-color: #F0DEC6, #c6d3f0;
+    border-style: solid;
+    border-width: .2em;
+    border-color: #E1A530;
+    width: 80%;
+}
+
+.grid0{
+    grid-column: 1;
+}
+
+.grid1{
+    grid-column: 2;
+}
+
+.grid2{
+    grid-column: 3;
+}
+
+.grid3{
+    grid-column: 4;
+}
+
+.grid4{
+    grid-column: 5;
+}
+
+.grid0, .grid1, .grid2, .grid3, .grid4{
+    font-size: 1.25em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-row: 1;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #e4ae62;
+}

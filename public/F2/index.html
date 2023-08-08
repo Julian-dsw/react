@@ -1,0 +1,104 @@
+<!--
+    Actividad: Fase 2 - Practicas Simuladas
+    Curso: Diseño de Sitios Web
+    Grupo: 301122_3
+    Presentado por: Julian Carrillo
+    Tutor: Mario Avila Perez
+ -->
+<!-- Declaro que el documento sera de tipo html-->
+<!DOCTYPE html>
+<html>
+    <!--
+        Agrego los elementos de head que contendra metadatos(idioma, codificacion, etc)
+        Como el titulo que mostrara mi web en los navegadores
+        y el enlace hacia la hoja de estilos.
+    -->
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Media queries
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+        <!--
+        Agrego los elementos de body que seran literalmente
+        el cuerpo de mi pagina web (textos, titulos, imagenes, etc...)
+    -->
+    <body>
+        <!--
+            Agrego elementos de tipo semantico y les coloco selectores de id para
+            luego darles "forma" en la hoja de estilos
+        -->
+
+        <div  class="cajas" id="header"><a href=".\index.html" name="arriba">Media queries</a></div>
+    </br>
+        <!--
+            Agrego un grip que me servira de menu de la pagina
+        -->
+        <div class="CssGrid cajas">
+            <div class="grid0 cajas"><a href=".\index.html">Inicio</a></div>
+
+            <div class="grid1 cajas"><a href="#tema">Tema seleccionado</a></div>
+
+            <div class="grid2 cajas"><a href="#mockup">Mockup</a></div>
+
+            <div class="grid3 cajas"><a href="#aboutof">Acerca de</a></div>
+
+            <div class="grid4 cajas"><a href="..\index.html">Fase5</a></div>
+        </div>
+    </Br>
+        <div id="content">
+            <a name="tema">
+                <h1>
+                    Las Media Queries
+                </h1>
+            <p style="font-size: 1.25em;">
+                Son una técnica que busca que al momento de aplicar las hojas de estilo estas lo hagan de acuerdo algunas condiciones (que generalmente suelen ser las dimensiones de pantalla del tipo de dispositivo usado para acceder).
+                La sintaxis básica seria algo de la siguiente forma:
+            </p>
+            <img src=".\1.png" style="height: 80px;">
+            <p style="font-size: 1.25em;">
+                Las reglas se pueden anidar y existen múltiples tipos de media como los de screen, los de print y los de speech, también existen varios tipos de condicionales para usar como el tamaño de pantalla (ya sea ancho con width o alto con height, el ratio u la orientación).
+Este es un ejemplo en el cual se anidan varias condiciones y tipos de media
+            </p>
+            <img src=".\2.png"  style="height: 150px;">
+            </a>
+            <a href="#arriba"><p>subir</p></a>
+        </div>
+    </Br>
+    <div id="mockup">
+        <a name="mockup">
+            <h1>
+                Mockup
+            </h1>
+            <p style="font-size: 1.25em;">
+                Un Mockup es un "prototivo", un boceto, un esbozo que se realiza con el fin de apoyarse al momento de planear o diseñar, a continuacion un ejemplo que sirvio para aclarar el diseño que tendria esta misma pagina.
+            </p>
+            <img src=".\mockup.png"  style="height: 500px;">
+        </a>
+        <a href="#arriba"><p>subir</p></a>
+    </div>
+    </Br>
+    <div id="aboutof">
+        <a name="aboutof">
+            <h1>
+                Acerca de
+            </h1>
+            <p style="font-size: 1.25em;">
+                El presente sitio web se diseño con el objetivo de demostrar el aprendizaje adquirido durante la fase 2 del curso de diseño de sitios web, dentro de los aprendizajes se encuentrar la sintaxis basica de html y las hojas de estilo, asi como tambien tecnicas de estilizacion como el diseño en grid.
+            </p>
+        </a>
+        <a href="#arriba"><p>subir</p></a>
+    </div>
+    </Br>
+    </Br>
+    <div id="footer">
+        <p style="color: aliceblue;">
+            <strong>Desarrollado por: Julian Carrillo</strong> - jecarrilloba@unadvirtual.edu.co
+        </p>
+        <p style="text-align: right;color: aliceblue;">
+            Ultima actualizacion: Julio de 2023                
+        </p>
+        </div>
+    </body>
+</html>

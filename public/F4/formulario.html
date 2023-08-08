@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Fase 4 - Implementar
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+    <body style="background-color: #dadde8;" onload="form0()">
+        <script src="script.js"></script>
+        <div class="mygrid">
+            <div class="header display-5"><a href=".\index.html">Fase 4</a></div>
+            <div class="menunav">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href=".\index.html"><b><i>incio</i></b></a>
+                          <a class="nav-link" href=".\temas.html"><b><i>temas</i></b></a>
+                          <a class="nav-link" href=".\formulario.html"><b><i>formulario</i></b></a>
+                          <a class="nav-link" href="..\index.html"><b><i>Fase5</i></b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </br>
+            </div>
+            <div class="aside" style="color: black;">
+                <div class="d-flex align-items-center flex-column bd-highlight mb-3">
+                    <div class="p-2 bd-highlight"><b><i>Enlaces de interes</i></b></div>
+                    <div class="p-2 bd-highlight"></div>
+                    <div class="p-2 bd-highlight"><a class="nav-link" href="https://www.unad.edu.co" style="color: #247c78;"><b><i>UNAD</i></b></a></div>
+                    <div class="p-2 bd-highlight"><a class="nav-link" href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide" style="color: #247c78;"><b><i>JS - MDN Docs Doc</i></b></a></div>
+                    <div class="p-2 bd-highlight"><a class="nav-link" href="https://uniwebsidad.com/libros/css" style="color: #247c78;"><b><i>uniwebsidad - CSS</i></b></a></div>
+                </div>
+            </div>
+        </br>
+        </br>
+        </br>
+            <div class="content">
+                <h2>A continuacion responda las siguientes preguntas</h2>
+            </br>
+                <form name="formulario" id="formulario" style="text-align: left;">
+                    <h5><b>1. ¿Como se llama el lenguaje que permite dotar de estilos(letras, fondos, apariencia, etc) a una pagina web?</b></br>
+                        <input type="radio" name="r1" value="a">a. CSS </br>
+                        <input type="radio" name="r1" value="b">b. Python </br>
+                        <input type="radio" name="r1" value="c">c. html </br></br>
+
+                    <h5><b>2. ¿Como se llama el lenguaje que permite dar estructura a una pagina web?</b></br>
+                        <input type="radio" name="r2" value="a">a. CSS </br>
+                        <input type="radio" name="r2" value="b">b. Python </br>
+                        <input type="radio" name="r2" value="c">c. html </br></br>
+
+                    <h5><b>3. ¿Es posible ejecutar programas escritos en JS desde un servidor?</b></br>
+                        <input type="radio" name="r3" value="a">a. Si, usando Node.JS </br>
+                        <input type="radio" name="r3" value="b">b. Si, abriendo un navegador </br>
+                        <input type="radio" name="r3" value="c">c. No, porque JS solo se ejecuta del lado del cliente </br></br>
+                    
+                    <h5><b>4. ¿Que palabra reservada guarda las variables en un programa escrito en JS?</b></br>
+                        <input type="radio" name="r4" value="a">a. VAR </br>
+                        <input type="radio" name="r4" value="b">b. LET </br>
+                        <input type="radio" name="r4" value="c">c. Ninguna de las anteriores </br></br>
+
+                    <h5><b>5. ¿Que etiqueta HTML permite hacer saltos de linea?</b></br>
+                        <input type="radio" name="r5" value="a">a. <\br> </br>
+                        <input type="radio" name="r5" value="b">b. VAR </br>
+                        <input type="radio" name="r5" value="c">c. Style </br></br>
+                        
+                    <button type="button" name="responder" onclick="procesarRespuestas()"> responder </button>
+                </form>
+            </br></br></br></br>
+                <p id="resultado">Resultado</p>
+            </br></br>
+            </div>
+        </br></br></br>
+            <div class="footer">
+            </br>
+                <p style="font-family: consolas; text-align: center; color: whitesmoke;"><b>Realizado por:</b> Julian Carrillo</p>
+                <p style="font-family: consolas; text-align: center; color: whitesmoke;"><b>Contacto:</b> Jecarrilloba@unadvirtual.edu.co</p>
+                <p style="font-family: consolas; text-align: center; color: whitesmoke;"><b>Ultima actualizacion:</b> Agosto de 2023</p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
